@@ -26,7 +26,7 @@ usersRouter.post('/', async (request, response) => {
       updated_at: user.updated_at,
     };
 
-    response.json(userWithoutPassword);
+    return response.json(userWithoutPassword);
   } catch (err) {
     return response.status(400).json({ error: err.message });
   }
