@@ -31,7 +31,9 @@
       }
     ],
     "prettier/prettier": "error",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    // "@typescript-eslint/camelcase": "off", //rule nor working anymore?
+    "camelcase": "off"
   },
   "settings": {
     "import/resolver": {
